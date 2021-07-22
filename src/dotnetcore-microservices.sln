@@ -3,9 +3,29 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{E4B538B6-9612-49F6-B4AF-42BA08736091}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catelog", "Catelog", "{6EF61198-49BC-4A89-80C0-D9C5AF336938}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catelog.API", "Services\Catelog\Catelog.API\Catelog.API.csproj", "{0897AB74-7C93-47EB-9913-CA819892DE95}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0897AB74-7C93-47EB-9913-CA819892DE95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0897AB74-7C93-47EB-9913-CA819892DE95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0897AB74-7C93-47EB-9913-CA819892DE95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0897AB74-7C93-47EB-9913-CA819892DE95}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6EF61198-49BC-4A89-80C0-D9C5AF336938} = {E4B538B6-9612-49F6-B4AF-42BA08736091}
+		{0897AB74-7C93-47EB-9913-CA819892DE95} = {6EF61198-49BC-4A89-80C0-D9C5AF336938}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {17470CFE-4E88-4D53-8B6C-9C1775F064C5}
