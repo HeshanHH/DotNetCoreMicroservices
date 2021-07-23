@@ -9,6 +9,8 @@ namespace Catelog.API.Data
 {
     public class CatalogContextSeed
     {
+        // run when appliction start.
+        // see mongodb driver commands and these comand most likely the same that we run on mongo CLI.
         public static void SeedData(IMongoCollection<Product> productCollection)
         {
             // if not exist then run populate function.

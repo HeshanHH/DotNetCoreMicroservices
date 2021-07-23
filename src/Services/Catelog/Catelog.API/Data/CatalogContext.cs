@@ -25,4 +25,4 @@ namespace Catelog.API.Data
         public IMongoCollection<Product> Products { get; }
     }
 }
-}
+
